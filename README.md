@@ -1,7 +1,8 @@
-Locally
+
 To get started, first clone this repo:
 
 $ git clone 
+
 $ cd gpt2bot
 Create and activate an environment (optional):
 
@@ -36,5 +37,3 @@ If you feel like your bot is a bit off, you would need to fine-tune its paramete
 There are three parameters that make the biggest impact: temperature, top_k and top_p. For example, you might increase the temperature to make the bot crazier, but expect it to be more off-topic. Or you could reduce the temperature for it to make more coherent answers and capture the context better, but expect it to repeat the same utterance (you may also experiment with repetition_penalty). For more tips, see HuggingFace tutorial.
 
 Remember that there is no way of finding optimal parameters except by manually tuning them.
-
-Configs
